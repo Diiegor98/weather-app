@@ -13,6 +13,8 @@ function App() {
 
   //dataWeather contiene el clima del fetch
   const [dataWeather, setDataWeather] = useState(null);
+
+  //Si todavia no hay data muestra un loading
   const [loading, setLoading] = useState(false);
 
   return (

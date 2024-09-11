@@ -23,6 +23,7 @@ export default function CardForm({ setDataWeather, setLoading }) {
     if (!city || city.trim().length === 0) {
       setError("Empty city is not valid");
       setDataWeather(null);
+      setLoading(false)
       return;
     }
 
