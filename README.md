@@ -24,4 +24,4 @@ https://openweathermap.org/
 
 ## Capturas
 
-![Default image]("./assets/readme/default.png")
+![Default image]("(https://github.com/Diiegor98/weather-app/blob/main/assets/readme/default.png)")
