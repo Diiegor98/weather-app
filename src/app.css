@@ -1,0 +1,21 @@
+main {
+  background-image: url("../assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  width: 90%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.178);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.67);
+}
+
+.title-container img {
+  width: 40px;
+}
